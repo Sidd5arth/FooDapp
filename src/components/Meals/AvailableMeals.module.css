@@ -10,6 +10,25 @@
     margin: 0;
     padding: 0;
   }
+  .MealsLoading{
+    margin: 2em auto;
+    text-align: center;
+    color: black;
+    padding: 0.2em;
+    width: 50%;
+    background-color: white;
+    border-radius: 1em;
+  }
+  .MealsError{
+    margin: 2em auto;
+    text-align: center;
+    color: white;
+    padding: 0.2em;
+    width: 50%;
+    background-color: rgb(249, 120, 120);
+    border-color: rgb(255, 69, 69);
+    border-radius: 1em;
+  }
   
   @keyframes meals-appear {
     from {
